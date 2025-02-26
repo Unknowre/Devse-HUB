@@ -8,5 +8,5 @@ local repo = "https://raw.githubusercontent.com/Unknownre/Devse-HUB/main/"
 if games[gameID] then
     loadstring(game:HttpGet(repo .. games[gameID], true))()
 else
-    warn("ไม่มีสคริปต์สำหรับเกมนี้")
+    warn("not found")
 end
